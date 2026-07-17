@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Trost - Graphic Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <a href="/index.html" class="logo">
+                <img src="/images/logo.png" alt="Trost logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/index.html" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="/trost_resume.pdf" class="nav__link nav__link--button">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero container">
+        <div class="row">
+            <div class="hero__img">
+                <img src="/images/heroimg.png" alt="logo staying Dj Trost Graphic Designer">
+            </div>
+            <div class="hero__text">
+                <p>
+                    Graphic design works best when you look past the pixels and focus on <span class="hero__text--emphasis">telling stories</span>.
+                </p>
+                <p>
+                    I've been designing stories for a digital world <span class="hero__text--emphasis">since 2015</span>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="form">
+            <form action="https://formcarry.com/s/pf0m4e79lLd" method="POST" enctype="multipart/form-data" class="form">
+                
+                <div class="row">
+                    <div class="form-block">
+                        <label for="fc-generated-1-name">Full Name</label><br>
+                        <input class="form__input" type="text" name="name" placeholder="Your first and last name" />
+                    </div>
+                    
+                    <div class="form-block">
+                        <label for="fc-generated-1-email">Your Email Address</label>
+                        <input class="form__input" type="email" name="email" placeholder="john@doe.com" />
+                    </div>
+                </div>
+                
+                <div class="form-block">
+                    <label for="fc-generated-1-message">Your message</label><br>
+                    <textarea class="form__textarea" name="message" name="message" placeholder="Tell me your story..."></textarea>
+                </div>
+                
+                <div class="form-block">  
+                    <button type="submit" class="nav__link--button">Send</button>
+                </div>
+            
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
